@@ -1,0 +1,329 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(34, 33, 33);
+    color:white;
+    font-family: 'Epilogue', sans-serif;
+}
+/* NAVBAR */
+#div1{
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+    height: 90px;
+    justify-content: center;
+}
+
+#In_div1_01{
+    display: flex;
+    position: absolute;
+    bottom: 1%;
+    /* border: 1px solid red; */
+    height:50%;
+    width:60%;
+    justify-content: space-evenly;
+
+}
+
+.ele1{
+    position: relative;
+    transition: margin-top  1s;
+    height:90%;
+    width:12%;
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+    text-align: center;
+       
+}
+
+.ele1:hover {
+
+   margin-top: 1%;
+}
+
+
+#div2{
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+    height: 80%;
+    
+}
+
+#img1{
+    position: absolute;
+    top:3%;
+    height: 70%;
+    width:40%;
+    left:-1%;
+}
+.ele2{
+    position: absolute;
+    top:25%;    
+    right:5%; 
+    font-size: 20px;    
+    height: 50%;
+}
+#img2{
+    position: relative;
+    height: 120%;
+    bottom: 5%;
+    left:20%;
+}
+#div3{
+    position: relative;
+    /* border: 1px solid red; */
+    height:110%;
+    
+    background-color: rgb(187, 165, 160);
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#In_div3_01{
+    background-color: rgba(184, 187, 31, 0.288);
+    color:black;
+    position: absolute;
+    left:10%;
+    top:30%;
+    font-family: 'Monoton', cursive;
+    height:30%;
+    width: 30%;
+    font-size: 60px;
+    box-shadow: rgba(0, 0, 0, 0.56)  10px 11px 10px 11px;
+    text-align: center;
+    
+}
+#In_div3_01:focus,
+#In_div3_01:hover {
+    background-color: black;
+    color: red;
+    box-shadow: rgba(205, 241, 1, 0.56) 10px 11px 10px 11px;
+}
+#project{
+    /* border: 1px solid red; */
+    position: relative;
+    top:30%;
+}
+
+
+
+#In_div3_02{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-flow: column nowrap;
+    position: absolute;
+    right:1%;
+    width:40%;
+    height:100%;
+    justify-content: space-evenly;
+}
+.p1{
+    background-color: rgb(31, 187, 122);
+    color: black;
+    border: 5px double rgb(98, 255, 7);
+    height:21.5%;
+    width: 90%;
+    align-self: center;
+    transition: margin-right 2s;
+    font-size: 15px;
+}
+.p1:focus,
+.p1:hover{
+    margin-right: 5%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.shift_centre{
+    margin-top: 4%; 
+    text-align: center;
+}
+
+#Head:focus,
+#Head:hover{
+    color:red;
+}
+#div4{
+    /* border: 1px solid rgb(166, 255, 0); */
+    height:100%;
+}
+.In_div4_01{
+    display: flex;
+    /* border: 1px solid red; */
+    height: 10%;
+    justify-content: center;
+}
+#ele3{
+    /* border: 1px solid red; */
+    width: 20%;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 0.5%;
+    color: rgb(red, rgb(18, 172, 192), blue);
+}
+
+.In_div4_02{
+    display: flex;
+    position: relative;
+    flex-flow: nowrap;
+    height: 45%;
+    justify-content: space-evenly;
+}
+
+.ele4{
+    /* border: 1px solid red; */
+    background-color: rgb(34, 33, 33);
+    position: relative;
+    top:25%;
+    width:10%;
+    height: 45%;
+    transition: box-shadow 2s;
+    font-size: 18px;
+}
+
+.ele4:hover{
+    box-shadow: rgba(5, 255, 151, 0.1) 0px 8px 24px, rgba(5, 185, 240, 0.1) 0px 16px 56px, rgba(4, 132, 218, 0.1) 0px 24px 80px;
+    transform: scale(1.1, 1.1);
+}
+
+#div5{ 
+    display: flex;
+    position: relative;
+    background-color: rgb(187, 165, 160);
+    height: 100%;
+    
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+
+.In_div5_01{
+   
+    position: relative;
+    top:25%;
+    left:5%;
+    width: 30%;
+    height: 50%;color: black;
+    text-align: justify;
+   
+}
+
+.In_div5_02{
+    
+    position: absolute;
+    top:15%;
+    right:5%;
+    border: 5px double rgb(195, 0, 255);
+    width: 50%;
+    height: 70%;
+    
+}
+#Hobbies{
+    position: relative;
+    
+    /* border: 1px solid red; */
+    height: 90%;
+}
+#ele5{
+
+    background: -webkit-linear-gradient(to right, #c31432, #240b36);
+    background: linear-gradient(to right, #c31432, #240b36);
+    font-weight: bold;
+    position: relative;
+    bottom: 10%;
+    left:5%;
+    /* border: 1px dashed red; */
+    border-radius: 10%;
+    width:15%;
+    height: 23%;
+    font-size: xx-large;
+    box-shadow:rgba(255, 0, 234, 0.3)  0px 15px 10px;
+}
+
+@keyframes controller {
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+}
+#fly_c{
+    position: absolute;
+    top:-20%;
+    right:5%;
+    animation: controller 10s ease infinite;
+
+}
+
+#div7{
+    display: flex;
+    position: relative;
+    /* border: 1px solid red; */
+    background: #ad5389;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Alata', sans-serif;
+    height:30%;
+    justify-content: center;
+}
+#In_div7_01{
+    position: absolute;
+    top:2%;
+    height: 15%;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgba(20, 20, 20, 0.904);
+}
+#In_div7_02{
+    display: flex;
+    position: absolute;
+    top:25%;
+    height:50%;
+    width: 50%;
+    /* border: 1px solid red; */
+    justify-content: space-evenly;
+}
+#In_div7_03{
+    position: absolute;
+    bottom:4%;
+    font-weight: bold;
+    color: rgba(20, 20, 20, 0.904);
+    font-size: 20px;
+    justify-content: space-evenly;
+    height: 12%;
+}
+.ele6{
+    position: relative;
+    top:30%;
+    
+}
+.ele6:hover{
+    transform: scale(1.1,1.1);
+}
+
+.In_div7_04{
+    position: absolute;
+ 
+    right:1%;
+    top:1%;
+    height: 20%;
+    width: 20%;
+}
+
+#gg span{
+    visibility: hidden;
+    position: absolute;
+    right: -500%;
+
+    /* border: 1px solid red; */
+    border-radius: 5%;
+    background-color: rgb(34, 33, 33);
+    color: white;
+}
+#gg:hover span{
+    visibility: visible;
+}
+
+#button1{
+    height: 15%;
+    width: 50%;
+}
